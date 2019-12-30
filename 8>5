@@ -1,0 +1,32 @@
+#include <iostream>
+using namespace std;
+#include <cmath>
+int main()
+{
+int x;
+    
+    cin >> x;
+    
+ if (x > 0 && x % 2 == 0)
+    {
+        cout << "+ chet" << endl;
+    }
+    else if (x > 0 && x % 2 != 0)
+    {
+        cout << "+ non chet" << endl;
+    }
+    else if (x < 0 && x % 2 == 0)
+    {
+        cout << "- chet" << endl;
+    }
+    else if (x < 0 && x % 2 != 0)
+    {
+        cout << "- non chet" << endl;
+    }
+    else if (x == 0)
+    {
+        cout << "nulevoe" << endl;
+    }
+    
+    return 0;
+}
