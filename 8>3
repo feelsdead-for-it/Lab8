@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+#include <cmath>
+int main()
+{
+    int a, b, c, ab, ac;
+    
+    cin >> a >> b >> c;
+    
+  ab = abs(a - b);
+  ac = abs(a - c);
+    
+    if (ab < ac)
+    {
+        cout << b <<" dlina= "<< ab << endl;
+    }
+     if (ac < ab)
+    {
+        cout << c <<" dlina= "<< ac << ends;
+    }
+    
+ 
+}
